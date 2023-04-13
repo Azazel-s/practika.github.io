@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="form">
+        <div class="form__header">
+            <h1>Отправка резюме работодателю</h1>
+            <hr />
+        </div>
+        <div class="form__group">
+            <div class="first__question">
+                <label for="first-name">Фамилия</label>
+                <input 
+                    type="text" 
+                    name="first-name" 
+                    id="first-name" 
+                    class="form__standart" 
+                />
+            </div>
+        </div>
+        <div class="form__group">
+            <div class="second__question">
+                <label for="email">Email</label>
+                <input 
+                    type="email"
+                    name="email"
+                    id="email"
+                    class="form__standart"
+                    placeholder="KtoTo@gmail.why"
+                />
+            </div>
+        </div>
+        <div class="form__group">
+            <div class="third__question">
+                <label for="password">Пароль от всего</label>
+                <input 
+                    type="password"
+                    name="password"
+                    id="password"
+                    class="form__standart" 
+                />
+            </div>
+        </div>
+        <div class="form__group">
+            <div class="five__question">
+                <label for="textarea">Расскажите о себе</label>
+                <textarea name="textarea" id="textarea" value="Тут что-то о себе" class="textarea"></textarea>
+            </div>
+        </div>
+        <div class="Footer">
+            <div class="form__group">
+                <div class="fourth_question">
+                    <label for="checkbox">Готовы работать семь дней в неделю?</label>
+                    <input 
+                        type="checkbox"
+                        name="checkbox"
+                        id="checkbox"
+                        value="Да"
+                        class="checkbox"
+                    />
+                </div>
+            </div>
+            <div class="form__group">
+                <div class="six_question">
+                    <label for="select">Почему именно наша компания?</label>
+                    <select name="select" id="select" class="form__standart">
+                        <option>Потому что тут можно ничего не делать</option>
+                        <option>Высокая занятость</option>
+                        <option>Низкая зарплата</option>
+                        <option>Других вариантов нет</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form__group">
+                <div class="seven__question">
+                    <label for="reset">Клининг полей</label>
+                    <input type="reset" name="reset" id="reset" value="Тыкни сюда, по братки" class="form__standart" />
+                </div>
+            </div>
+            <hr>
+            <div class="form__group">
+                <div class="submit">
+                    <button type="submit" class="button">Ничего не делает</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
