@@ -1,6 +1,5 @@
 html, body {
     font-size: 20px;
-    height: 100%;
     
 }
 
@@ -35,6 +34,11 @@ a {
     color: rgb(74, 173, 140);
 }
 
+a:hover {
+    content: '';
+    color: #2edd0b;
+}
+
 .a__svg {
     display: inline-flex;
     background-image: url("img/a__svg.svg");
@@ -53,6 +57,14 @@ a {
     color: #d4d4d4;
 }
 
+.a__svg a:hover {
+    color: #818181;
+}
+
+.no-wrap {
+    display: inline-flex;
+    flex-wrap: nowrap;
+}
 
 .Body {
     display: flex;
