@@ -1,0 +1,88 @@
+body {
+    font-size: 20px;
+    background-color: darkred;
+    color: #1c98e0;
+}
+div {
+    margin-bottom: 5em;
+}
+
+.Laba__1__2 {
+    text-align: center;
+}
+
+.five {
+    font-size: 10px;
+}
+
+.six {
+    font-size: 30px;
+}
+
+.seven {
+    font-size: 50px;
+}
+
+.eight {
+    font-size: 70px;
+}
+
+.eleven {
+    color: yellow;
+}
+
+.twelwe {
+    color: green;
+}
+
+ .Laba__1__4 p  {
+    font-size: 50px;
+}
+
+.Laba__1__4 sub, sup {
+    font-size: 20px;
+}
+
+.LEFT {
+    text-align: left;
+}
+
+.RIGHT {
+    text-align: right;
+}
+
+.CENTER {
+    text-align: center;
+}
+
+.JUSTYFI {
+    text-align: justify;
+}
+
+table {
+    margin-bottom: 100px;
+}
+
+.table, .caption {
+    color: black;
+    background-color: #1c98e0;
+}
+
+thead {
+    font-style: italic;
+}
+
+.Laba__2__samost table, .Laba__2__samost caption {
+    background-color: #12cc50;
+    color: #ff0022;
+}
+
+.Laba__3__1 img {
+    width: 500px;
+    height: 1000px;
+}
+
+.Laba__3__samost img {
+    width: 500px;
+    height: 1000px;
+}
